@@ -196,3 +196,17 @@ Skill section
 .skills {
   background-color: var(--clr-grey-10);
 }
+
+.skill {
+  padding: 3rem 0;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.skill-icon {
+  font-size: 2rem;
+  color: var(--clr-primary);
+  margin-bottom: 2.5rem;
+  transition: var(--transition);
+  display: inline-block;
+}
