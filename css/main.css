@@ -8,9 +8,9 @@ Variables
 :root {
   --clr-primary: #4bb450;
   --clr-primary-light: #e5eec7;
-  --clr-grey-0: #3b3b3b;
-  --clr-grey-5: #515151;
-  --clr-grey-10: #a8a8a8;
+  --clr-grey-0: #102a42;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
   --clr-white: #fff;
   --ff-primary: Catamaran, sans-serif;
   --ff-secondary: Grand Hotel, cursive;
@@ -122,12 +122,12 @@ More Global Styles
 .btn:hover {
   background-color: var(--clr-primary-light);
 }
+
 /* 
 ==============================
 Header
 ===============================
 */
-
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -163,4 +163,36 @@ Header
 .banner-btn {
   outline: 0.125rem solid var(--clr-primary);
   outline-offset: 0.25rem;
+  font-size: 1.25rem;
+  padding: 1rem 1.7rem;
+}
+
+/* 
+================
+content divider 
+=================
+*/
+.content-divider {
+  height: 0.5rem;
+  background: linear-gradient(
+    to right,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(30, 87, 153, 1) 15%,
+    rgba(21, 109, 109, 1) 16%,
+    rgba(102, 51, 20, 1) 29%,
+    rgba(155, 29, 153, 1) 40%,
+    rgba(96, 18, 32, 1) 50%,
+    rgba(125, 185, 232, 1) 58%,
+    rgba(66, 45, 84, 1) 72%
+  );
+}
+
+/* 
+================
+Skill section
+=================
+*/
+
+.skills {
+  background-color: var(--clr-grey-10);
 }
