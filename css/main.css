@@ -14,7 +14,7 @@ Variables
   --clr-white: #fff;
   --ff-primary: Catamaran, sans-serif;
   --ff-secondary: Grand Hotel, cursive;
-  --transition: all 3s linear;
+  --transition: all 0.3s linear;
   --spacing: 0.2rem;
   --radius: 0.5rem;
 }
@@ -205,8 +205,43 @@ Skill section
 
 .skill-icon {
   font-size: 2rem;
-  color: var(--clr-primary);
   margin-bottom: 2.5rem;
   transition: var(--transition);
   display: inline-block;
+  color: var(--clr-primary);
+}
+
+.skill-text {
+  color: var(--clr-grey-5);
+  width: 17rem;
+  margin: 0 auto;
+}
+
+.skill:hover {
+  background-color: var(--clr-white);
+  box-shadow: 1px 7px 5px 0px rgba(0, 0, 0, 0.22);
+}
+
+.skill:hover .skill-icon {
+  transform: translateY(-5px);
+}
+
+@media screen and (min-width: 576px) {
+  .skill {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skill {
+    float: left;
+    width: 25%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
