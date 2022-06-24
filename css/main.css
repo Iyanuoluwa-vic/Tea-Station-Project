@@ -331,4 +331,97 @@ Product section
   object-fit: cover;
 }
 
-/* as*/
+@media screen and (min-width: 768px) {
+  .product {
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .product {
+    float: left;
+    width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .product-info {
+    float: left;
+    width: 30%;
+  }
+
+  .products-inventory {
+    float: left;
+    width: 70%;
+  }
+
+  .product {
+    margin-bottom: 0;
+    padding: 0 1rem;
+  }
+}
+
+/* 
+================
+Services section
+=================
+*/
+
+.services-title {
+  margin-top: 4rem;
+  margin-bottom: -2rem;
+  text-align: center;
+}
+
+.services-card {
+  background-color: var(--clr-grey-10);
+  margin-bottom: 2rem;
+  box-shadow: 1px 7px 5px 0px rgba(0, 0, 0, 0.22);
+  transition: var(--transition);
+  object-fit: cover;
+}
+
+.services-card:hover {
+  transform: scale(1.02);
+
+  box-shadow: 1px 7px 5px 0px rgba(0, 0, 0, 0.22);
+}
+
+.services-img-container {
+  object-fit: cover;
+}
+
+.services-text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.services-text p {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.service-btn {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-weight: 400;
+  border-radius: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+  .services-card {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .services-card {
+    float: left;
+    width: 30%;
+    margin-right: 3.3%;
+  }
+}
