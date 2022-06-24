@@ -490,3 +490,29 @@ Form section
     width: 50%;
   }
 }
+
+/* 
+================
+Footer 
+=================
+*/
+
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+.fa-brands {
+  margin-right: 1.25rem;
+  color: var(--clr-white);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.copyright {
+  color: var(--clr-white);
+}
+
+.company {
+  color: var(--clr-primary);
+}
