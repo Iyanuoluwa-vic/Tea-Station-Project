@@ -38,7 +38,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -127,8 +127,12 @@ More Global Styles
   color: var(--clr-primary);
   font-family: var(--ff-secondary);
 }
-.section-title {
-  margin-bottom: 2rem;
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .section-center {
@@ -136,6 +140,10 @@ More Global Styles
   padding: 4rem 0;
   margin: 0 auto;
   max-width: 1170;
+}
+
+.section-title {
+  margin-bottom: 2rem;
 }
 
 @media screen and(min-width:992px) {
@@ -153,7 +161,7 @@ Header
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../img/header.jpeg) center/cover no-repeat fixed;
+    url(../img/main-bcg.jpeg) center/cover no-repeat fixed;
   position: relative;
 
   /* animation */
@@ -262,12 +270,6 @@ Skill section
   }
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* 
 ================
 About section
@@ -305,4 +307,26 @@ about-img {
     float: left;
     width: 50%;
   }
+}
+
+/* 
+================
+Product section
+=================
+*/
+
+.products {
+  background: var(--clr-grey-10);
+}
+
+.product-btn {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.product-img {
+  margin-bottom: 2rem;
+  border-radius: var(--radius);
+  height: 17rem;
+  object-fit: cover;
 }
