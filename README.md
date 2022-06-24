@@ -1,12 +1,18 @@
 
 # SPECIALLY CRAFTED TEA
-
 We sell various type of tea which include Ginger Peach Tea, Ginger Peach Tea and White Tea
 
-## Demo
 
-Insert gif or link to demo
-![Video](https://giphy.com/embed/yxkqZV6enDSXthMkQu)
+## Screenshots
+
+![Capture](https://user-images.githubusercontent.com/33699531/175616147-d57efbb1-ffb0-45d3-bc60-afad604f4c6a.PNG)
+
+
+## Built With
+
+- HTML & CSS
+- JavaScript
+- 
 ## Run Locally
 
 Clone the project
@@ -47,7 +53,11 @@ Open Vscode
 | Example Color | ![#f1f5f8](https://via.placeholder.com/10/00b48a?text=+)  |
 
 
+## Demo
+https://user-images.githubusercontent.com/33699531/175618337-78f48a72-ab3f-46c1-abca-f27d24c2c181.mp4
 
-## Screenshots
 
-![Capture](https://user-images.githubusercontent.com/33699531/175616147-d57efbb1-ffb0-45d3-bc60-afad604f4c6a.PNG)
+## Authors
+
+- [@Victor](https://github.com/Iyanuoluwa-vic)
+
