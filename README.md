@@ -5,11 +5,8 @@ We sell various type of tea which include Ginger Peach Tea, Ginger Peach Tea and
 
 ## Demo
 
-
-https://user-images.githubusercontent.com/33699531/175616713-0947b699-bc02-4eaf-9d51-83d91bf24e31.mp4
-
-
-
+Insert gif or link to demo
+![Video](https://giphy.com/embed/yxkqZV6enDSXthMkQu)
 ## Run Locally
 
 Clone the project
@@ -43,11 +40,11 @@ Open Vscode
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#4bb450](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#e5eec7](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#102a42](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#617d98](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-| Example Color | ![#f1f5f8](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+| Example Color | ![#4bb450](https://via.placeholder.com/10/0a192f?text=+)  |
+| Example Color | ![#e5eec7](https://via.placeholder.com/10/f8f8f8?text=+)  |
+| Example Color | ![#102a42](https://via.placeholder.com/10/00b48a?text=+)  |
+| Example Color | ![#617d98](https://via.placeholder.com/10/00b48a?text=+)  |
+| Example Color | ![#f1f5f8](https://via.placeholder.com/10/00b48a?text=+)  |
 
 
 
