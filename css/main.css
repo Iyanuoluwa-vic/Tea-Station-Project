@@ -123,6 +123,28 @@ More Global Styles
   background-color: var(--clr-primary-light);
 }
 
+.section-title h3 {
+  color: var(--clr-primary);
+  font-family: var(--ff-secondary);
+}
+.section-title {
+  margin-bottom: 2rem;
+}
+
+.section-center {
+  width: 85vw;
+  padding: 4rem 0;
+  margin: 0 auto;
+  max-width: 1170;
+}
+
+@media screen and(min-width:992px) {
+  .section-center {
+    width: 95vw;
+    padding: 4rem 1rem;
+  }
+}
+
 /* 
 ==============================
 Header
@@ -244,4 +266,43 @@ Skill section
   content: "";
   display: table;
   clear: both;
+}
+
+/* 
+================
+About section
+=================
+*/
+
+.about-img,
+.about-info {
+  padding: 2rem 0;
+}
+
+.about-picture-container {
+  background-color: var(--clr-primary);
+  border: 0.5rem solid green;
+  max-width: 30rem;
+  overflow: hidden;
+}
+
+about-img {
+  transition: var(--transition);
+}
+
+.about-picture-container:hover .about-img-pic {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+.about-text {
+  max-width: 26rem;
+}
+
+@media screen and (min-width: 900px) {
+  .about-img,
+  .about-info {
+    float: left;
+    width: 50%;
+  }
 }
