@@ -619,7 +619,7 @@ Form section
 }
 
 @media screen and (min-width: 992px) {
-  .form,
+  .contact-form,
   .contact-info {
     float: left;
     width: 50%;
