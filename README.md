@@ -8,6 +8,9 @@ We sell various type of tea which include Ginger Peach Tea, Ginger Peach Tea and
 ![Capture](https://user-images.githubusercontent.com/33699531/175616147-d57efbb1-ffb0-45d3-bc60-afad604f4c6a.PNG)
 
 
+## Demo
+[Click hereto view live demo!](https://favorite-tea.netlify.app/)
+
 ## Built With
 
 - HTML & CSS
