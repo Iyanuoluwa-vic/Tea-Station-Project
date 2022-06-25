@@ -155,6 +155,73 @@ More Global Styles
 
 /* 
 ==============================
+Navigation
+===============================
+*/
+#nav-btn {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  font-size: 2.5rem;
+  color: var(--clr-primary);
+  z-index: 1;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--clr-grey-10);
+  z-index: 1;
+  /* hide navbar */
+}
+
+.showNav {
+}
+
+.navbar-header {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.nav-items {
+  list-style: none;
+}
+.nav-item {
+  margin-bottom: 1.5rem;
+}
+
+.nav-close {
+  font-size: 3.5rem;
+  color: #f29c9c;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.nav-close:hover {
+  color: red;
+}
+
+.nav-link {
+  display: block;
+  font-size: large;
+  color: var(--clr-grey-5);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 0.1rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 30%;
+    max-width: 20rem;
+  }
+}
+
+/* 
+==============================
 Header
 ===============================
 */
