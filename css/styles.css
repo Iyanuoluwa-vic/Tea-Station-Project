@@ -229,6 +229,65 @@ Navbar
 
 /*
 ==============================
+Animation
+===============================
+*/
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translatex(1000px);
+    opacity: 0;
+  }
+  50% {
+    transform: translatex(-200px);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translatex(50px);
+    opacity: 0.75;
+  }
+
+  100% {
+    transform: translatex(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translatex(-1000px);
+    opacity: 0;
+  }
+  50% {
+    transform: translatex(200px);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translatex(-50px);
+    opacity: 0.75;
+  }
+
+  100% {
+    transform: translatex(0px);
+    opacity: 1;
+  }
+}
+
+/* end of animation */
+
+/*
+==============================
 Header
 ===============================
 */
@@ -255,6 +314,7 @@ Header
   color: var(--clr-primary);
 
   /* animation */
+  animation: slideFromRight 5s ease-in-out 1;
 }
 
 .banner h1 {
@@ -262,6 +322,7 @@ Header
   color: var(--clr-white);
   margin-top: 1.25rem;
   margin-bottom: 2rem;
+  animation: slideFromLeft 5s ease-in-out 1;
 }
 
 .banner-btn {
